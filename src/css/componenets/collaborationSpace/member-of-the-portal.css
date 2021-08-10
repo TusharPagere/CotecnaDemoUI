@@ -1,0 +1,73 @@
+.cont-srch{
+	background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+}
+.cont-srch input{
+    background: none;
+    border: 0 none;
+	width:90%;
+}
+.cont-srch  a.glyphicon-search {
+    text-align: center;
+    width: 9%;
+    color: #333;
+    display: inline-block;
+    line-height: 18px;
+}
+.view-display{
+	padding: 0;
+}
+.view-display a {
+    display: block;
+}
+.view-display a i{
+	font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0;
+}
+.view-display a span{
+	width: 18px;
+    overflow: hidden;
+    display: inline-block;
+    line-height: normal;
+    font-size: 12px;
+    font-weight: 600;
+}
+.ex-feautes .row{margin:0;}
+.action-btnH{padding:0;}
+.action-btnH a{display:inline-block; font-size:12px}
+.action-btnH .empty-btn{
+	border:1px solid #5f81c6;
+	border-radius: 3px;
+	padding:5px;
+	color:#007feb;
+}
+.action-btnH .filled-btn{
+	background:#1746a9;
+	border:1px solid #5f81c6;
+	border-radius: 3px;
+	padding:5px;
+	color:#fff;
+}
+.cont-tableH{
+	margin-top:20px;
+	background: #fff;
+    border-radius: 3px;
+    padding: 10px;
+}
+.cont-tableH table tr th{color: #3d64b7;}
+.cont-tableH table tr th, .cont-tableH table tr td{vertical-align:middle;}
+.cont-tableH table tr td{font-size:12px;}
+.prof-int{
+	padding: 10px;
+    background: #3d64b7;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+nav.pagination-nav{overflow:hidden;}
+nav.pagination-nav ul.pagination{float:right;}

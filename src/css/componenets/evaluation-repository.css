@@ -1,0 +1,27 @@
+.evarepo-H aside{border:1px solid #ddd; padding:10px;}
+.eva-select{margin-top:20px;}
+.eval-sec-H .eva-select:first-child{margin-top:40px;}
+.eva-select .sel-lead{
+	display:block;    
+	border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.evarepo-contH ul li.article-card{padding:10px; background:#fafafa; margin-top:20px;}
+.evarepo-contH ul li.article-card:hover{background:#f0f0f0;}
+.evarepo-contH ul li.article-card:first-child{margin-top:0;}
+.evarepo-contH .timestamp a{text-transform:uppercase;}
+.divider{margin:0 10px;}
+.date, .excerpt{color:#999;}
+.datetime{margin-left:5px;}
+.article-detail h3.title{font-size:1.3em; line-height:1.3em;text-transform:uppercase;}
+.article-detail h3.title a{color:#333;}
+
+.evarepo-popup h2{text-transform:uppercase; color:#0033A0;font-size: 1.8em; line-height: 1.2em; border-bottom:2px solid #00008b; padding-bottom:10px;}
+.evarepo-popup i{color:#0033A0;display:inline-block; font-size:1.5em; margin-right:5px;}
+.evarepo-popup h3{margin:0; display:inline-block;text-transform:uppercase;font-size: 1.2em; color:#999;}
+.evarepo-popup .data{padding-top: 10px; padding-bottom: 10px;}
+.evarepo-popup .table-header{border-bottom:1px solid #666; margin-bottom:10px; padding:5px 0;}
+.evarepo-popup .table-header h3 {margin: 10px 0;}
+/*.evarepo-popup .table-header i.fa-file-pdf{font-size:1em;}*/
+.evarepo-popup .table-header a{text-decoration:underline;}

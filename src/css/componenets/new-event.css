@@ -1,0 +1,82 @@
+.n-e-holder img{width:100%; border-radius: 10px;}
+.news-main-card h3 {
+    font-weight: 600;
+    line-height: 30px;
+}
+.news-list-card{display:table; margin-bottom:20px;}
+.news-list-card figure {
+    display: table-cell;
+    width: 30%;
+    vertical-align: top;
+}
+.news-list-data {margin-left: 10px;font-size:12px;}
+.news-list-data .news-date{float:none; color:#0033a0; font-weight:600}
+.news-list-data h3{font-size: 14px; font-weight: 600; margin-top:10px; 
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.news-list-data p{  
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.news-list-data a.readmore{display:block; font-weight:600;}
+.news-detail .news-date{font-weight:600;}
+.news-detail figure{margin:20px 0;}
+
+.events-list-card{margin-bottom:40px;}
+h3.event-list-title {
+    margin: 30px 0;
+    font-weight: 600;
+    font-size: 28px;
+}
+.events-list-card figure {
+    margin-bottom: 20px;
+}
+.events-list-card .event-title{font-weight:600;}
+.events-list-card a{display:block;}
+.events-list-card a.readmore {
+    color: #333;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+.events-list-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.events-list-card .news-date {
+    float: none;
+    color: #666;
+}
+.reg-form .input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+.reg-form .form-group{overflow:hidden; margin-bottom:0px;}
+.reg-form h5{font-weight:600;}
+//hide nasty ie clear thingie
+.reg-form .input-group.with-icon>input::-ms-clear{display:none}
+
+.reg-form .input-group.with-icon > input{
+    padding-right: 25px; border-radius:10px !important;
+}
+.reg-form .input-group.with-icon > i {
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  pointer-events: none;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+}
+.reg-form .input-group.with-icon > i {right: 10px; color:#0033a0;}

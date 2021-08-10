@@ -1,0 +1,331 @@
+i.icofont-file-pdf{color:#d36a6a;}
+i.icofont-file-word{color:#1976d2;}
+/***** member of the portal css start ******/
+.view-display.col-md-1{
+	padding: 0;
+}
+.view-display a {
+    display: inline-block;
+}
+.view-display a i {
+    font-size: 18px;
+    vertical-align: text-bottom;
+	color:#0033A0;
+}
+.view-display a i.icofont-long-arrow-up{
+	font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0;
+}
+.view-display a span{
+	width: 18px;
+    overflow: hidden;
+    display: inline-block;
+    line-height: normal;
+    font-size: 12px;
+    font-weight: 600;
+}
+.ex-feautes .row{margin:0;}
+
+.folder-breadcrumb .breadcrumb{margin:20px 0 0;}
+.list-box{
+	-webkit-box-shadow: 0 3px 12px rgba(0,0,0,.175);
+    -moz-box-shadow: 0 3px 12px rgba(0,0,0,.175);
+    box-shadow: 0 3px 12px rgba(0,0,0,.175);
+}
+.cont-tableH{
+	background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cont-tableH table tr th{color: #3d64b7;}
+.cont-tableH table tr th, .cont-tableH table tr td{vertical-align:middle;}
+.cont-tableH table tr td{font-size:12px;}
+.prof-int{
+	padding: 10px;
+    background: #3d64b7;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+nav.pagination-nav{overflow:hidden;}
+nav.pagination-nav ul.pagination{float:right;}
+
+/***** member of the portal css end ******/
+
+/***** technical references css start ******/
+
+.nav-pills>li>a, .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background:none;
+	color: #333;
+	border-radius:0;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	font-weight:600;
+	border-bottom:1px solid #808080;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background: none;
+	border-bottom:1px solid #808080;
+	font-weight:600;
+}
+#technical-ref-Tabs.nav{border-bottom:1px solid #a4a4af;}
+#technical-ref-Tabs.nav li a {
+    padding: 10px; color: #333;
+}
+#technical-ref-Tabs.nav-pills>li.active>a, #technical-ref-Tabs.nav-pills>li.active>a:focus, #technical-ref-Tabs.nav-pills>li.active>a:hover{border-bottom:2px solid #999;}
+.tab-content{overflow:hidden; padding:20px;}
+.tab-card{border-radius:5px; padding:10px; overflow:hidden; margin-bottom: 20px;
+-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+-moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+box-shadow: 0 6px 12px rgba(0,0,0,.175);}
+
+.img-border{border:1px solid #ccc; border-radius:5px; padding:10px; float:left}
+/*.img-holder{
+	background: url(../../../assets/tech-ref-tab-img.png);
+    background-size: cover;
+    width: 75px;
+    height: 95px;
+    display: block;
+} */
+.techref-details {
+    float: left;
+    width: calc(100% - 120px);
+    margin-left: 15px;
+}
+.techrefcard-title{
+	font-size:12px;
+	font-weight:600;
+	padding:0 5px 10px 0
+}
+.techref-cont{
+	font-size:12px;
+	display: -webkit-box;
+    max-width: 300px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/***** technical references css end ******/
+
+/***** documents css start ******/
+.doc-holder, .eval-holder{overflow:hidden; padding:20px 0;}
+.doc-holder .shadow-box i, .doc-holder .shadow-box span, .doc-holder .shadow-box a{display:block; text-align:center}
+.doc-holder .shadow-box i{font-size:4em; color:#0033a0;}
+.doc-holder .shadow-box i.icon-red-color{color:#cc5656}
+.doc-holder .shadow-box span{font-size:0.85em; color:#666; margin:20px 0}
+.doc-holder .shadow-box a{height:40px; overflow:hidden;}
+.cont-tableH .table tr td i{font-size:1.7em; margin-right:5px;}
+.list-box i{font-size:1.7em; margin-right:5px;}
+.list-box .icofont-ui-folder{color: #3d64b7;}
+/***** documents css end ******/
+
+/***** discussion board css start ******/
+.disboard-H .cont-srch input{width:88%;}
+.disboard-H .cont-srch a.glyphicon-search{text-align:right;}
+.threadsList-H .threadTitle {
+    padding: 10px 0;
+}
+.threadsList-H .threadTitle h3 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline;
+}
+.threadsList-H .threadTitle a{
+	float:right; display:inline-block; color:#333;
+}
+.threadsList-H .threadTitle a i{
+	    transform: rotateX(180deg);
+}
+.threadsList-H .threadTitle a i.flipsorticon{
+    transform: rotateX(0deg);
+}
+.threads-list {
+    font-size: 0.7em;
+    cursor: pointer;
+}
+.threadlist {
+    background: #fff;
+    border-left: 2px solid #0033a0;
+    padding: 5px;
+    border-radius: 0 10px 10px 0;
+	margin-bottom:10px;
+}
+.threadlist-name {
+	overflow:hidden;
+	height:100%;
+    margin-bottom: 10px;
+}
+.threadlist-name span.intials {
+    padding: 5px;
+    background: #0033a0;
+    color: #fff;
+    border-radius: 50%;
+    display: block;
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+    font-size: 1.1em;
+}
+.threadlist-name .title p {
+    margin: 0 5px 0 0;
+    /* height: 13px; */
+	overflow:hidden;
+    font-weight: bold;
+    color: #6161ae;
+}
+.threadlist:hover, .threadlist:hover .threadlist-name .title p, .activeThread, .activeThread .title p{background:#4269bb; color:#fff;}
+.threadlist:hover a, .activeThread a{color:#fff;}
+.threadlist-name .date-time {
+    font-size: 0.8em;
+}
+.threadlist-message {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.threadMesg-H{background:#fff; border-radius:10px; padding:10px; position:relative;}
+.threadEdit-icons {
+    position: absolute;
+    top: -35px;
+    right: 0px;
+    background: #4269bb;
+    border-radius: 10px;
+}
+.threadEdit-H .threadEdit-icons a {
+    padding: 5px 10px;
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+    border-left: 1px solid #0033a0;
+}
+.threadEdit-H .threadEdit-icons a:nth-child(1) {
+    border: 0;
+}
+.threadEdit-dropdown {
+    position: absolute;
+	top: -5px;
+    right: -100px;
+    background: #fff;
+    color: #666;
+	padding:5px;
+    z-index: 1;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2;
+}
+.threadEdit-dropdown a{display:block; color:#666; background:#eef3fc; padding:5px; margin-top:2px;}
+.threadEdit-dropdown a:nth-child(1){margin-top:0;}
+.threadMesg-Title h2{margin:0; font-size:1.2em; font-weight:600}
+.threadMesg-H .action-icon{padding:10px 0;}
+.threadMesg-H .action-icon a{margin-right:10px; display:inline-block; color:#0033a0;}
+.threadMesg-icons {padding-top: 10px;}
+.threadMesg-inti{border:1px solid #ccc; border-radius:20px; padding:5px;font-size: 10px;}
+.threadMesg-inti span{
+	padding: 4px;
+    background: #3d64b7;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 18px;
+}
+.threadMesg-inti span:nth-child(1) {
+    background: #0033a0;
+}
+.threadMesg-inti > span:nth-child(2) {
+	left:-12px;
+}
+.threadMesg-inti > span:nth-child(3) {
+	left:-24px;
+}
+.threadMesg-inti > span:nth-child(4) {
+	left:-36px;
+}
+.threadMesg-inti span:nth-child(2) {
+    background: #ff8d8f;
+}
+.threadMesg-inti span:nth-child(3) {
+    background: #83adec;
+}
+.threadMesg-inti span:nth-child(4) {
+    background: #d9e0f1;
+}
+.threadMesg-inti a.downArrow{margin:0; padding:5px;margin-right:15px;}
+.threadMesg-inti-list-dropdown{
+	position: absolute;
+    top: 35px;
+    right: 25px;
+    background: #4269bb;
+    color: #666;
+    padding: 10px 8px;
+    z-index: 1;
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #e2e2e2;
+}
+.threadMesg-inti-list-dropdown span{display:block; margin-top:5px;}
+.threadMesg-list {
+    display: table;
+    width: 100%;
+	border-top: 1px solid #3d64b7;
+    padding: 20px 0;
+}
+.threadMesg-contH span.threadMesg-inti{
+	display: inline-block;
+    background: #0033a0;
+    padding: 14px;
+    border-radius: 50%;
+    color: #fff;
+	margin-right:10px;
+    width: 45px;
+    height: 45px;
+    line-height: 15px;
+    text-align: center;
+}
+.threadMesg-txtH {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+
+}
+.threadMesg-txtTitle {
+    overflow: hidden;
+    height: 100%;
+    padding: 0 0 20px 0;
+}
+.threadMesg-txt{font-size:0.92em; text-align: justify;}
+.threadMesg-txtTitle h3{padding-bottom:0;float: left;
+    display: inline;
+    margin: 0;
+    font-size:1.3em;}
+
+.threadMesg-txtTitle .date-time{
+    float: right;
+    font-size: 0.85em;
+    display: inline;
+}
+.threadMesg-txtH .action-btnH{padding:20px 0;}
+.disboard-H form{background:#fff; border:1px solid #ccc; border-radius:10px 10px 0 0;    padding: 20px 0 30px}
+.form-actionsBtn{border-bottom:1px solid #ccc; overflow:hidden; height:100%; padding:10px;}
+.form-actionMesg{padding:30px;}
+.form-actionMesg label, .form-actionMesg .form-filed input, .form-actionMesg .form-filed textarea{display:block; width:100%;}
+.form-actionMesg .form-filed {margin-bottom:20px;}
+.form-actionMesg .form-filed input, .form-actionMesg .form-filed textarea{padding:5px;}
+/***** discussion board css end ******/
+
+
+.eval-holder .shadow-box{padding:10px;}
+.eval-holder .shadow-box img{width:100%;}
+.eval-holder .eval-img-detail{font-size:13px;}
+.eval-holder .eval-img-detail h3{font-size:20px; margin:10px 0;}
+.eval-holder .eval-img-detail span{font-weight:600;}

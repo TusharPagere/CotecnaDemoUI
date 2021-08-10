@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import "./css/icofont.min.css";
+@import "./lato-font/stylesheet.css";
+@import "./css/componenets/common-style.css";
+@import "./css/componenets/navigation-style.css";
+@import "./css/componenets/index/sidebar.css";
+@import "./css/componenets/index/main-components.css";*/
+
+@import "./css/bootstrap.css";
+@import "./css/common.css";
+@import "./css/master.css";
+@import "~@ng-select/ng-select/themes/default.theme.css";
+/* angular-cli file: src/styles.css */
+/* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; */
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
+
+/* @import "./css/icon-all.css"; */
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

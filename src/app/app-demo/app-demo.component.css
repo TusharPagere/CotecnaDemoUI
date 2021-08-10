@@ -1,0 +1,97 @@
+table {
+    width: 100%;
+  }
+  .mat-form-field{width: 100%;}
+  /*td, th {
+    width: 25%;
+  }*/
+  .btn-export-div {
+   height: 50px;
+    text-align: right;
+    width: 300%;
+  }
+  .cont-tableH th div, .cont-tableH th{color: #3d64b7; font-size: 11px !important; font-weight: 600;}
+  .cont-tableH th.mat-header-cell, .cont-tableH td.mat-cell, .cont-tableH td.mat-footer-cell{font-size: 10px;}
+  th.mat-header-cell:first-of-type, td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type {
+    padding-left: 8px; padding-right: 18px;
+  }
+  .action-btnH{text-align: right;}
+  .action-btnH button{margin-left: 5px;}
+  .mat-raised-button:disabled {
+    color:gray;
+  }
+  .mat-raised-button:disabled > .test {
+  
+    color:gray;
+  }
+  .mat-raised-button:disabled,
+  .mat-raised-button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  }
+  .mat-sort-header-arrow{opacity: 1;}
+  .round {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    float: left;
+    font-weight: bold;
+  
+    /* Change the shape according
+        to the image */
+    shape-outside: circle();
+    background-color:blue;
+    color: white;
+    z-index:999999999999999999;
+  }
+
+  .prof-int{
+    padding: 10px;
+      background: #3d64b7;
+      color: #fff;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 5px;
+      text-transform: uppercase;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+    }
+    .w-75{
+      max-width: 75px;
+    }
+    
+    .w-100{
+      max-width: 100px;
+    }
+    .th-center{
+      text-align: center;
+    }
+    .td-left{
+      text-align: left;
+    }
+    .mat-form-field-appearance-legacy .mat-form-field-underline {
+    height: 0px;
+    }
+    /*.cont-srch {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    }
+    .cont-srch input {
+    background: none;
+    border: 0 none;
+    width: 90%;
+    }*/
+    
+    .truncate-cell {
+      max-width: 110px; /* feel free to include any other value */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .cont-tableH table tr th, .cont-tableH table tr td{padding: 0 5px;}

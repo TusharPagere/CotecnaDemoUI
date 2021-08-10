@@ -1,0 +1,26 @@
+<div class="material-popupH">
+    <p>Update Service Request<a mat-button (click)="onCancel()" cdkFocusInitial class="pull-right close"><i class="fas fa-times-circle"></i></a></p>
+    <mat-dialog-content [formGroup]="form">
+        <mat-form-field>
+            <input matInput placeholder="Customer Name" formControlName="name" />
+            <mat-error>name is required</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Request Date" formControlName="date" />
+            <mat-error>date is required</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Status" formControlName="status" />
+            <mat-error>status is required</mat-error>
+        </mat-form-field>
+
+
+    </mat-dialog-content>
+
+    <div mat-dialog-actions>
+        <button class="filled-btn btn btn-sm" mat-button >Submit</button>
+
+    </div>
+</div>
